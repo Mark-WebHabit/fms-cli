@@ -12,7 +12,7 @@ import {
 
 // components
 import Template from "../components/Template";
-import FormCOntainer from "../components/FormCOntainer";
+import FormContainer from "../components/FormContainer.jsx";
 import InputComponent from "../components/Input";
 
 function FormSignUp() {
@@ -60,7 +60,7 @@ function FormSignUp() {
   return (
     <Template action={handleShowForm}>
       {showForm && (
-        <FormCOntainer
+        <FormContainer
           formText={"Register"}
           linkText={"have an account"}
           path={"login"}
@@ -110,7 +110,7 @@ function FormSignUp() {
               />
             </RadioContainer>
           </InputContainer>
-        </FormCOntainer>
+        </FormContainer>
       )}
     </Template>
   );

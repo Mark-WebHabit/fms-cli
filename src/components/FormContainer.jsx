@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 import CloseTab from "./CloseTab";
 import { useNavigate } from "react-router-dom";
 
-function FormCOntainer({
+function FormContainer({
   children,
   formText,
   linkText,
@@ -26,7 +26,7 @@ function FormCOntainer({
   );
 }
 
-export default FormCOntainer;
+export default FormContainer;
 
 const FormWrapper = styled.div`
   width: 250px;
